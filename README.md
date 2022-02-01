@@ -1,22 +1,22 @@
-# Docker e Node:
- Testando as funções do Docker.
- Para instalar a imagem do programa entre no *PowerShell* e use o comando:
+# Docker and Node:
+ Testing Docker Features
+ To install the program image open *PowerShell* and type the following command:
  
  ```sh
  docker push kmuv1t/node
  ```
  
- depois disso use o comando:
+ after that, type:
  
  ```sh
  docker run -d -p 8080:3000 kmuv1t/node
  ```
 
- E por último para testar, acesse o navegador e insira:
+ And finally, open your browser and type in the search bar:
  
  ```sh
  localhost:8080
   ```
   
- Caso não tenha o Docker instalado, use este link:
+ If you don't have Docker installed, go to this link:
  https://www.docker.com/products/docker-desktop
